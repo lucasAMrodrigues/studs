@@ -9,6 +9,6 @@ export default (props) => {
             <h2>Valor Aleatório</h2>
             <p>Valor Máximo: {max} </p>
             <p>Valor Mínimo: {min} </p>
-            <h2><strong>Resultado: {aleatorio}</strong></h2>
+            <p><strong>Valor Escolhido: {aleatorio}</strong></p>
         </div>
     )}
