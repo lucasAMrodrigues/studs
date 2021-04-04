@@ -1,0 +1,51 @@
+$color-text: #9ff;
+$color-text2: rgb(131, 96, 187);
+
+@mixin box-shadow($color){
+    box-shadow: 3px 3px 4px 1px $color;
+}
+
+@mixin text-effect($val) {
+    @if $val == danger{
+        color: orange;
+    }
+    @else if $val == alert {
+        color: yellow;
+    }
+    @else {
+        color: black;
+    }
+}
+
+body {
+    background-color: rgb(51, 51, 51);
+    color: $color-text;
+    @extend .flex;
+
+}
+ 
+.countainer {
+    @include box-shadow(rgba(0,0,0,0.6));
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    p {
+        @include box-shadow(rgba(0,0,0,0.6));
+        width: 100px;
+        height: 100px;
+        border-radius: 5px;
+        margin: 15px;
+        padding: 10px;
+        background-color: $color-text2;  
+        @include text-effect(danger); 
+    }
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
