@@ -1,0 +1,13 @@
+.Input input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    width: 95%;
+}
+
+.Input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

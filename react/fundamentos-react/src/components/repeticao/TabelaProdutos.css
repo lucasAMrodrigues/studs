@@ -8,3 +8,6 @@
 .TabelaProdutos .Par {
     background-color: rgb(214, 214, 214);
 }
+.TabelaProdutos .Impar {
+    background-color: rgb(141, 141, 141);
+}

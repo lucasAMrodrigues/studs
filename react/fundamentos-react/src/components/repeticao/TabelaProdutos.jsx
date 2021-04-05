@@ -6,7 +6,7 @@ export default (props) => {
 
     const produtosTAB = produtos.map((prod, i) => {
         return (
-            <tr key={prod.id} className={i% 2 == 0 ? 'Par' : ''}>
+            <tr key={prod.id} className={i% 2 === 0 ? 'Par' : 'Impar'}>
                 <td>{prod.id}</td>
                 <td>{prod.nome}</td>
                 <td>R$ {prod.preco.toFixed(2).replace('.' , ',')}</td>
