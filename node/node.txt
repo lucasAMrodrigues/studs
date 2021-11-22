@@ -1,0 +1,3 @@
+Módulo
+Saber como uma aplicação é organizada :: O sistema tem que ser dívidido :: Onde vai ser aplicada a organização?
+Em node um arquivo representa um módulo > módulo não deixa todo o conteúdo disponível para todos
