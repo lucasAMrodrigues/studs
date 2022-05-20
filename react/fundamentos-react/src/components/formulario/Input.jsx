@@ -15,7 +15,7 @@ export default (props) => {
             <div className="InputFields">
                 <input value={valor} onChange={quandoMudar} />
                 <input value={valor} readOnly />
-                <input value={undefined} readOnly />
+                <input value={undefined}  />
             </div>
         </div>
     )
